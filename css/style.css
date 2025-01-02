@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
 .navbar{
     color: #fff;
     padding: 10px;
@@ -6,18 +10,57 @@
 }
 .heading {
     text-align: center;
-    font-size: 12px;
+    font-size: 24px;
     font-weight: bold;
     color: #333;
 }
-.author{
-    text-align: center;
-    font-size: 10px;
-    color: #000000;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.heading p {
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 13px;
 }
-
+.logo{
+	font-size: 14pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+.navbar{
+	background: #212121;
+	margin: 0;
+	padding: 20px 30px;
+}
+.tombol{
+	display: none;
+	color: white;
+	font-size: 14pt;			
+}
+.menu{
+	margin: 0;
+	display: flex;
+	list-style: none;
+	padding: 0;			
+}
+.tombol:hover{
+	cursor: pointer;
+}
+ 
+.menu li{
+	padding-left: 0;
+	margin-right: 10px;
+}
+ 
+.menu li a{
+	padding:10px;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+}
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 .footer {
     text-align: center;
     padding: 10px;
