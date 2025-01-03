@@ -11,7 +11,14 @@ body{
 .navbar{
 	background: #212121;
 	margin: 0;
-	padding: 20px 30px;
+	padding: 10px 35px;
+}
+.poto{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
 }
 .logo{
 	font-size: 14pt;
